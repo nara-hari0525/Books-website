@@ -1,0 +1,70 @@
+.app {
+  min-height: 100vh;
+}
+
+.main-container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.hero-section {
+  padding: 70px 0 45px;
+}
+
+.hero-small {
+  color: #9a6b35;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+.hero-section h1 {
+  max-width: 700px;
+  font-size: clamp(40px, 6vw, 68px);
+  line-height: 1.05;
+  color: #1d2939;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 span {
+  color: #a66a32;
+}
+
+.hero-description {
+  max-width: 650px;
+  color: #667085;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.books-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 0 20px;
+}
+
+.books-header h2 {
+  font-size: 28px;
+}
+
+.books-header p {
+  color: #667085;
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 45px 0 30px;
+  }
+
+  .books-header {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .books-header h2 {
+    font-size: 24px;
+  }
+}
